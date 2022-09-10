@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    place-items: center;
+    background: url(bg3.jpg)no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.header {
+    font-size: 15px;
+    border-bottom: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.main {
+    width: 400px;
+    border-radius: 40px;
+    background-color: rgba(253, 246, 246, 0.171);
+    color: white;
+    box-shadow: 0 0 40px 20px rgba(221, 221, 221, 0.171);
+}
+
+.main form {
+    padding: 30px 20px 25px 20px;
+}
+
+.inst {
+    text-align: center;
+    color: darkgray;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+}
+
+.otp {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.otp input[type="text"] {
+    width: 55px;
+    font-size: 20px;
+    margin: 2px;
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: 2px rgba(172, 172, 172, 0.568);
+    box-shadow: 0 0 40px 20px rgba(149, 149, 149, 0.219);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    transition: all .3s ease;
+}
+
+.otp input[type="text"]:focus {
+    border: 2px solid black;
+    box-shadow: 0 0 4px 4px purple;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 2px none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: url(bg3.jpg)no-repeat center center;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.5;
+    color: darkred;
+    font-weight: bold;
+    background: linear-gradient(135deg, #1f0ea0, #0b9056);
+}
+
+input[type="submit"]:active {
+    transform: scale(.9);
+}
+
+.main form .col {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.main form .col a {
+    color: darkblue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+form .col a:hover {
+    text-decoration: underline;
+}

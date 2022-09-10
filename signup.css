@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    place-items: center;
+    background: url(bg11.jpg)no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar {
+    height: 130px;
+    width: 130px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header {
+    font-size: 15px;
+    border-bottom: 5px;
+    padding: 9px 0;
+    text-align: center;
+}
+
+.main {
+    width: 400px;
+    border-radius: 40px;
+    background-color: rgba(253, 246, 246, 0.171);
+    color: white;
+    box-shadow: 0 0 70px 20px rgba(221, 221, 221, 0.171);
+}
+
+.main form {
+    padding: 30px 20px 25px 20px;
+}
+
+.main form .box {
+    height: 45px;
+    margin: 2px 0px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.main form i {
+    width: 25px;
+    text-align: center;
+    padding-right: 15px;
+    padding-right: 15px;
+}
+
+.box input {
+    color: white;
+}
+
+input[type="text"] {
+    background: transparent;
+    width: 85%;
+    margin-bottom: 8px;
+    padding: 5px 8px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+input[type="email"],
+input[type="password"] {
+    background: transparent;
+    width: 85%;
+    margin-bottom: 8px;
+    padding: 5px 8px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+::placeholder {
+    color: rgba(253, 246, 246, 0.171);
+}
+
+.main form .pass {
+    margin: -5px 0 20px 5px;
+    font-size: 19px;
+    color: grey;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+.main form .pass:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 2px none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: url(bg8.jpg)no-repeat center center;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.5;
+    color: blue;
+    background: linear-gradient(135deg,#e66465, #9198e5);
+}
+
+.main form .col {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.main form .col a {
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+form .col a:hover {
+    text-decoration: underline;
+}
